@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>le restaurant de l'ENSIAS</title>
+    <meta name="description" content="pour contacter le service clientel du restaurant de l'ENSIAS">
+    <link rel="shortcut icon" href="./images/ENSIAS.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contactez nous</h1>
+        <nav>
+            <a href="index.html">Acceuill</a>
+            <a href="menu.html">Mennu</a>
+            <a href="contact.html">Contacter nous</a>
+        </nav>
+        <img src="images/baniere-restaurant.jpg" alt="banier restaurant" width="895">
+    </header>
+    <section>
+        <h2>Où nous trouver</h2>
+        <address>Avenue Mohamed Ben Abdellah, Av. Regragui, Rabat</address>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.8383757135284!2d-6.870280650701643!3d33.984329786147846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76ce7f9462dd1%3A0x2e9c39cfa1d9e8d7!2s%C3%89cole%20Nationale%20Sup%C3%A9rieure%20d&#39;Informatique%20et%20d&#39;Analyse%20des%20Syst%C3%A8mes!5e0!3m2!1sfr!2sma!4v1712852172880!5m2!1sfr!2sma" width="1200" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="pos"></iframe>
+        
+        <fieldset>
+            <h2>Nous envoyer un email:</h2>
+            <form action="contact.html" method="post">
+                <div>
+                    <label for="email">Votre email</label>
+                    <input type="text" name="name" id="email" placeholder="votre_email@gmail.com">
+                </div>
+                <div>
+                    <label for="subject">Sujet de votre réclamation</label>
+                    <input type="text" name="subject" id="subject" maxlength="100">
+                </div>
+                <div>
+                    <label for="reclam">votre réclamation</label><br>
+                    <textarea name="reclam" id="reclam" cols="30" rows="10"></textarea>
+                </div>
+                <div>  
+                    <button type="submit">envoyer</button>
+                </div>
+            </form>
+            
+        </fieldset>
+
+    </section>
+    <footer>
+        <nav>
+            <span>© 2024/2025 Amellouk Nour. Tous droits réservés.</span>
+            <img src="images/pointeur-de-localisation.png" alt="position" width="16">
+            <a href="#pos">Voir la position</a>
+        </nav>
+    </footer>
+
+    
+
+</body>
+</html>
